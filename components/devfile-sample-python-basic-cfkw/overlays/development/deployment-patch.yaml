@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-cfkw
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/test-rhtap-9-tenant/load-app-dbae2300-2eed-4032-aaaf-d6a79049e345/devfile-sample-python-basic-cfkw@sha256:13e644122181b75575a9a71e16ff8da12df67a1dbb52486e3df06a9be681d0b2
+        name: my-python
+        resources: {}
+status: {}
