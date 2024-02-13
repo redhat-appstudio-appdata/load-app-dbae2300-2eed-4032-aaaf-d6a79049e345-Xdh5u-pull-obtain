@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: load-app-dbae2300-2eed-4032-aaaf-d6a79049e345
   name: devfile-sample-python-basic-cfkw
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
